@@ -21,7 +21,7 @@ upstream_dfsg_version = $(firstword $(subst -, ,$(debian_version)))
 upstream_version = $(firstword $(subst +, ,$(debian_version)))
 
 %:
-	dh $@ --parallel --dbg-package=libqt5webchannel5-dbg --with pkgkde_symbolshelper
+	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	# Run qmake once to create .qmake.conf and be sure to append the following values.
