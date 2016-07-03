@@ -9,7 +9,7 @@ Build-Depends: cmake,
                qtchooser,
                qtdeclarative5-private-dev (>= 5.6.0~),
                quilt
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 
 Package: libqt5webchannel-dev
