@@ -1,0 +1,88 @@
+Source: qtwebchannel-opensource-src
+Section: libs
+Priority: extra
+Maintainer: Scarlett Clark <sgclark@kubuntu.org>
+Build-Depends: cmake,
+               debhelper (>= 8.0.0),
+               g++-4.6 (>= 4.6.0-7~) [armel],
+               qtbase5-dev (>= 5.6.0+dfsg~),
+               qtbase5-private-dev (>= 5.6.0+dfsg~),
+               qtchooser,
+               qtdeclarative5-private-dev (>= 5.6.0~),
+               quilt
+Standards-Version: 3.9.7
+Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
+
+Package: libqt5webchannel5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: libqt5webchannel5 (= ${binary:Version}),
+         qtbase5-dev,
+         qtdeclarative5-dev,
+         ${misc:Depends}
+Description: Web content engine library for Qt - development files
+ Provides public API shared by both QtWebEngine and QtWebEngineWidgets
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using QtWebEngine library.
+
+Package: libqt5webchannel5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Web content engine library for Qt
+ Provides public API shared by both QtWebEngine and QtWebEngineWidgets
+ .
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the QtWebEngine libraries.
+
+Package: qml-module-qtwebchannel
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt WebKit QML module
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the WebKit QML module for QtDeclarative.
+
+Package: libqt5webchannel5-dbg
+Priority: extra
+Architecture: amd64 i386 powerpc s390x
+Multi-Arch: same
+Section: debug
+Depends: libqt5webchannel5 (= ${binary:Version}), ${misc:Depends}
+Description: Web content engine library for Qt - debugging symbols
+ QtWebEngine provides a Web browser engine that makes it easy to embed content
+ from the World Wide Web into your Qt application.
+ .
+ This package contains the debugging symbols for the Qt WebKit library.
+
+Package: qtwebchannel5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 webchannel documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 webchannel libraries.
+
+Package: qtwebchannel5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 webchannel HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 webchannel
+ libraries.
