@@ -3,8 +3,7 @@ Section: libs
 Priority: extra
 Maintainer: Scarlett Clark <sgclark@kubuntu.org>
 Build-Depends: cmake,
-               debhelper (>= 8.0.0),
-               g++-4.6 (>= 4.6.0-7~) [armel],
+               debhelper (>= 9),
                qtbase5-dev (>= 5.6.0+dfsg~),
                qtbase5-private-dev (>= 5.6.0+dfsg~),
                qtchooser,
