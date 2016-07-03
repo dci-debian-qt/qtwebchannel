@@ -11,6 +11,8 @@ Build-Depends: cmake,
                quilt
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 
 Package: libqt5webchannel-dev
 Section: libdevel
