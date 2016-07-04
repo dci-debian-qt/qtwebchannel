@@ -8,7 +8,7 @@ Build-Depends: cmake,
                qtbase5-private-dev (>= 5.6.0+dfsg~),
                qtchooser,
                qtdeclarative5-private-dev (>= 5.6.0~),
-               quilt
+               pkg-kde-tools
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
