@@ -1,1 +1,2 @@
-libqt5webchannel-dev: privacy-breach-generic usr/share/doc/libqt5webchannel-dev/examples/webchannel/chatclient-html/chatclient.html
+# external refernece in examples are ok, because they only show how to use the package.
+libqt5webchannel-dev: privacy-breach-generic usr/share/doc/libqt5webchannel-dev/examples/webchannel/chatclient-html/chatclient.html*
