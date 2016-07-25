@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Scarlett Clark <sgclark@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               nodejs,
                pkg-kde-tools,
                qtbase5-dev (>= 5.6.0+dfsg~),
                qtbase5-private-dev (>= 5.6.0+dfsg~),
