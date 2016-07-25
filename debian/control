@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Scarlett Clark <sgclark@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               nodejs,
+               pkg-kde-tools,
                qtbase5-dev (>= 5.6.0+dfsg~),
                qtbase5-private-dev (>= 5.6.0+dfsg~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.6.0~),
-               pkg-kde-tools,
-               nodejs
+               qtdeclarative5-private-dev (>= 5.6.0~)
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
@@ -54,24 +54,3 @@ Description: Qt WebKit QML module
  from the World Wide Web into your Qt application.
  .
  This package contains the WebKit QML module for QtDeclarative.
-
-# Package: qtwebchannel-doc
-# Architecture: all
-# Section: doc
-# Depends: ${misc:Depends}
-# Description: Qt 5 webchannel documentation
-#  Qt is a cross-platform C++ application framework. Qt's primary feature
-#  is its rich set of widgets that provide standard GUI functionality.
-#  .
-#  This package contains the documentation for the Qt 5 webchannel libraries.
-
-# Package: qtwebchannel-doc-html
-# Architecture: all
-# Section: doc
-# Depends: ${misc:Depends}
-# Description: Qt 5 webchannel HTML documentation
-#  Qt is a cross-platform C++ application framework. Qt's primary feature
-#  is its rich set of widgets that provide standard GUI functionality.
-#  .
-#  This package contains the HTML documentation for the Qt 5 webchannel
-#  libraries.
