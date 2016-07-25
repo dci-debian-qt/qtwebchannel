@@ -24,7 +24,7 @@ Depends: libqt5webchannel5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
          ${misc:Depends}
-Recommends: libjs-jquery, libjs-jquery-mobile
+Recommends: libjs-jquery, libjs-jquery-mobile, npm, nodejs
 Description: Web content engine library for Qt - development files
  Provides public API shared by both QtWebEngine and QtWebEngineWidgets
  .
