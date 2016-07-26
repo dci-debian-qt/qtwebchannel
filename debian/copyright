@@ -23,10 +23,6 @@ Copyright: 2014, Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.
            2014, basysKom GmbH, author Bernd Lamecker <bernd.lamecker@basyskom.com>
            2014, basysKom GmbH, author Lutz Schönemann <lutz.schoenemann@basyskom.com>
            2014, basysKom GmbH, author Sumedha Widyadharma <sumedha.widyadharma@basyskom.com>
-           1989-1991, Free Software Foundation, Inc
-           2007, Free Software Foundation, Inc. <http://fsf.org/>
-           2014, Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com>
-           2015, The Qt Company Ltd
 License: LGPL-2.1+3
  $QT_BEGIN_LICENSE:LGPL21$
  Commercial License Usage
