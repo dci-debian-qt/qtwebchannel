@@ -15,7 +15,7 @@ override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=" src"
 
 override_dh_auto_install-arch:
-	make install INSTALL_ROOT=$(CURDIR)/debian/tmp
+	dh_auto_install
 
 	# Remove private headers
 	rm -rf debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtWebChannel/*/QtQtWebChannel
