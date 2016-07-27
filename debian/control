@@ -15,6 +15,17 @@ Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 
+Package: qtwebchannel-doc
+Section: doc
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}
+Description: QtWebChannel Docuentation
+ Provides the documentation for QtWebChannel
+ .
+ This package contains the documentation for QtWebChannel.
+
 Package: libqt5webchannel-dev
 Section: libdevel
 Architecture: any
