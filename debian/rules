@@ -21,7 +21,7 @@ override_dh_clean:
 	rm -f src/webchannel/QtWebChannel.version.in
 
 override_dh_auto_configure:
-	qmake QT_BUILD_PARTS+=" src"
+	qmake
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
