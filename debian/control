@@ -5,11 +5,13 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Scarlett Clark <sgclark@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               libqt5sql5-sqlite,
                pkg-kde-tools,
                qtbase5-dev (>= 5.6.0+dfsg~),
                qtbase5-private-dev (>= 5.6.0+dfsg~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.6.0~)
+               qtdeclarative5-private-dev (>= 5.6.0~),
+               qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
@@ -17,8 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 
 Package: qtwebchannel-doc
 Section: doc
-Architecture: any
-Multi-Arch: same
+Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}
 Description: QtWebChannel Docuentation
