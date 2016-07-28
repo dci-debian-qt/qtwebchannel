@@ -1,8 +1,8 @@
 Source: qtwebchannel-opensource-src
-Section: libs
-Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Scarlett Clark <sgclark@kubuntu.org>
+Section: libs
+Priority: optional
 Build-Depends: cmake,
                debhelper (>= 9),
                libqt5sql5-sqlite,
@@ -13,14 +13,13 @@ Build-Depends: cmake,
                qtdeclarative5-private-dev (>= 5.6.0~),
                qttools5-dev-tools
 Standards-Version: 3.9.8
-Homepage: http://doc.qt.io/qt-5/qtwebchannel-index.html
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
+Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
 
 Package: qtwebchannel-doc
-Section: doc
 Architecture: all
-Pre-Depends: dpkg (>= 1.15.6~)
+Section: doc
 Depends: ${misc:Depends}
 Description: QtWebChannel Documentation
  Provides the documentation for QtWebChannel
@@ -28,9 +27,8 @@ Description: QtWebChannel Documentation
  This package contains the documentation for QtWebChannel.
 
 Package: qtwebchannel-doc-html
-Section: doc
 Architecture: all
-Pre-Depends: dpkg (>= 1.15.6~)
+Section: doc
 Depends: ${misc:Depends}
 Description: QtWebChannel HTML Documentation
  Provides the documentation for QtWebChannel
@@ -38,10 +36,9 @@ Description: QtWebChannel HTML Documentation
  This package contains the HTML documentation for QtWebChannel.
 
 Package: libqt5webchannel-dev
-Section: libdevel
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~)
+Section: libdevel
 Depends: libqt5webchannel5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
@@ -73,8 +70,9 @@ Description: Examples for Qt 5 Webchannel module
 Package: libqt5webchannel5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Web content engine library for Qt
  Provides public API shared by both QtWebEngine and QtWebEngineWidgets
  .
@@ -86,8 +84,9 @@ Description: Web content engine library for Qt
 Package: qml-module-qtwebchannel
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: Qt WebKit QML module
  QtWebEngine provides a Web browser engine that makes it easy to embed content
  from the World Wide Web into your Qt application.
