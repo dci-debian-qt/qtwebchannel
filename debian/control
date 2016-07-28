@@ -1,6 +1,8 @@
 Source: qtwebchannel-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Scarlett Clark <sgclark@kubuntu.org>
+Uploaders: Scarlett Clark <sgclark@kubuntu.org>,
+           Sandro Knauß <bugs@sandroknauss.de>,
+           Simon Quigley <tsimonq2@ubuntu.com>
 Section: libs
 Priority: optional
 Build-Depends: cmake,
