@@ -11,6 +11,15 @@ export QT_SELECT := qt5
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
+override_dh_clean:
+	dh_clean
+
+	rm -rf doc
+	rm -f examples/webchannel/chatclient-html/qwebchannel.js
+	rm -f examples/webchannel/nodejs/qwebchannel.js
+	rm -f examples/webchannel/qwclient/qwebchannel.js
+	rm -f src/webchannel/QtWebChannel.version.in
+
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=" src"
 
