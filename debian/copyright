@@ -3,6 +3,7 @@ Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: debian/*
 Copyright: 2016 Scarlett Clark <sgclark@kubuntu.org>
+           2016 Sandro Knauß <bugs@sandroknauss.de>
            2016 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
