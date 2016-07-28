@@ -22,10 +22,20 @@ Section: doc
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}
-Description: QtWebChannel Docuentation
+Description: QtWebChannel Documentation
  Provides the documentation for QtWebChannel
  .
  This package contains the documentation for QtWebChannel.
+
+Package: qtwebchannel-doc-html
+Section: doc
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}
+Description: QtWebChannel HTML Documentation
+ Provides the documentation for QtWebChannel
+ .
+ This package contains the HTML documentation for QtWebChannel.
 
 Package: libqt5webchannel-dev
 Section: libdevel
