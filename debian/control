@@ -63,10 +63,7 @@ Multi-Arch: same
 Depends: libqt5webchannel5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: libjs-jquery,
-            libjs-jquery-mobile,
-            nodejs,
-            npm
+Recommends: libjs-jquery, libjs-jquery-mobile, nodejs, npm
 Pre-Depends: ${misc:Pre-Depends}
 Description: Examples for the Qt 5 WebChannel module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -80,8 +77,7 @@ Description: Examples for the Qt 5 WebChannel module
 Package: libqt5webchannel5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Description: Web content engine library for Qt
  Provides public API shared by both QtWebEngine and QtWebEngineWidgets
@@ -93,8 +89,7 @@ Description: Web content engine library for Qt
 Package: qml-module-qtwebchannel
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Description: Qt WebKit QML module
  QtWebEngine provides a Web browser engine that makes it easy to embed content
