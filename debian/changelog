@@ -1,5 +1,6 @@
-qtwebchannel-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.6.1-1) unstable; urgency=medium
 
   * Initial package (Closes: #832421)
+  * Team upload.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Jul 2016 19:37:04 -0500
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 31 Jul 2016 15:30:49 +0200
