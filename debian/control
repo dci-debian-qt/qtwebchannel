@@ -23,9 +23,7 @@ Package: qtwebchannel-doc
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: QtWebChannel Documentation
- Provides the documentation for QtWebChannel
- .
+Description: Web communication library for Qt - Documentation
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
@@ -37,9 +35,7 @@ Package: qtwebchannel-doc-html
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
-Description: QtWebChannel HTML Documentation
- Provides the HTML documentation for QtWebChannel
- .
+Description: Web communication library for Qt - HTML Documentation
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
@@ -55,16 +51,14 @@ Depends: libqt5webchannel5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev,
          ${misc:Depends}
-Description: Web content engine library for Qt - development files
- Provides public API shared by both QtWebEngine and QtWebEngineWidgets
- .
+Description: Web communication library for Qt - development files
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
  This package contains the development files needed to build Qt 5 applications
- using the QtWebEngine library.
+ using the QtWebChannel library.
 
 Package: qtwebchannel-examples
 Architecture: any
@@ -74,16 +68,13 @@ Depends: libqt5webchannel5 (= ${binary:Version}),
          ${shlibs:Depends}
 Recommends: libjs-jquery, libjs-jquery-mobile, nodejs, npm
 Pre-Depends: ${misc:Pre-Depends}
-Description: Examples for the Qt 5 WebChannel module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
+Description: Web communication library for Qt - Examples
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the examples for Qt5 webchannel application
+ This package contains the examples for Qt WebChannel application
  development.
 
 Package: libqt5webchannel5
@@ -91,28 +82,23 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
-Description: Web content engine library for Qt
- Provides public API shared by both QtWebEngine and QtWebEngineWidgets
- .
+Description: Web communication library for Qt
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the QtWebEngine libraries.
+ This package contains the QtWebChannel libraries.
 
 Package: qml-module-qtwebchannel
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
-Description: Qt WebKit QML module
- QtWebEngine provides a Web browser engine that makes it easy to embed content
- from the World Wide Web into your Qt application.
- .
+Description: Web communication library for Qt - QML module
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the WebKit QML module for QtDeclarative.
+ This package contains the WebChannel QML module for QtDeclarative.
