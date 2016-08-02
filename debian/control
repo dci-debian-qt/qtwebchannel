@@ -9,11 +9,11 @@ Build-Depends: cmake,
                debhelper (>= 9),
                libqt5sql5-sqlite,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.6.0+dfsg~),
-               qtbase5-private-dev (>= 5.6.0+dfsg~),
+               qtbase5-dev (>= 5.6.1+dfsg~),
+               qtbase5-private-dev (>= 5.6.1+dfsg~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.6.0~),
-               qttools5-dev-tools (>= 5.6.0~)
+               qtdeclarative5-private-dev (>= 5.6.1~),
+               qttools5-dev-tools (>= 5.6.1~)
 Standards-Version: 3.9.8
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
@@ -75,8 +75,7 @@ Description: Web communication library for Qt - Examples
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the examples for Qt WebChannel application
- development.
+ This package contains the examples for Qt's WebChannel submodule.
 
 Package: libqt5webchannel5
 Architecture: any
