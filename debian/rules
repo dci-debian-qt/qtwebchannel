@@ -14,7 +14,7 @@ export QT_SELECT := qt5
 override_dh_clean:
 	dh_clean
 
-	rm -rf doc
+	rm -rf doc test_root
 	rm -f examples/webchannel/chatclient-html/qwebchannel.js
 	rm -f examples/webchannel/nodejs/qwebchannel.js
 	rm -f examples/webchannel/qwclient/qwebchannel.js
@@ -40,6 +40,10 @@ override_dh_auto_install-arch:
 	#create links
 	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
 	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/qwclient/qwebchannel.js
+
+override_dh_auto_test-arch:
+	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
+	dh_auto_test -- QT_QPA_PLATFORM=minimal QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml
 
 override_dh_auto_test-indep:
 
