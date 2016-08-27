@@ -38,10 +38,8 @@ override_dh_auto_install-arch:
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	#create links
-	rm debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
-	rm debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/qwclient/qwebchannel.js
-	ln -s /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/chatclient-html/qwebchannel.js  debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
-	ln -s /usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/chatclient-html/qwebchannel.js  debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/qwclient/qwebchannel.js
+	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
+	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/qwclient/qwebchannel.js
 
 override_dh_auto_test-indep:
 
