@@ -2,4 +2,4 @@ qtwebchannel-opensource-src (5.6.1-1) unstable; urgency=medium
 
   * Initial package (Closes: #832421)
 
- -- Sandro Knauß <bugs@sandroknauss.de>  Sun, 31 Jul 2016 15:30:49 +0200
+ -- Sandro Knauß <bugs@sandroknauss.de>  Sat, 27 Aug 2016 19:15:33 +0200
