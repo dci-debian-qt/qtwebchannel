@@ -41,6 +41,8 @@ override_dh_auto_install-arch:
 	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/chatclient-html/
 
 	# Link duplicate files
+	ln -sf ../qwclient/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/chatclient-qml/qwebchannel.js
+	ln -sf ../qwclient/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/standalone/qwebchannel.js
 	ln -sf ../qwclient/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
 
 override_dh_auto_test-arch:
