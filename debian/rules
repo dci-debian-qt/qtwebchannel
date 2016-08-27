@@ -37,9 +37,11 @@ override_dh_auto_install-arch:
 	# Remove libtool-like files
 	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-	#create links
-	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
-	ln -sf ../chatclient-html/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/qwclient/qwebchannel.js
+	# Remove example with privacy breaks (remote scripts and styles)
+	rm -rfv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/chatclient-html/
+
+	# Link duplicate files
+	ln -sf ../qwclient/qwebchannel.js debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/webchannel/nodejs/qwebchannel.js
 
 override_dh_auto_test-arch:
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
