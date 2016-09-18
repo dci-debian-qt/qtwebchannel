@@ -6,13 +6,13 @@ Author: Simon Quigley <tsimonq2@ubuntu.com>
 Last-Update: 2016-07-27
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
-Index: qtwebchannel-opensource-src-5.7.0/examples/webchannel/qwclient/qwclient.js
+Index: qtwebchannel/examples/webchannel/qwclient/qwclient.js
 ===================================================================
---- qtwebchannel-opensource-src-5.7.0.orig/examples/webchannel/qwclient/qwclient.js
-+++ qtwebchannel-opensource-src-5.7.0/examples/webchannel/qwclient/qwclient.js
+--- qtwebchannel.orig/examples/webchannel/qwclient/qwclient.js	2016-07-27 20:09:40.161572533 -0500
++++ qtwebchannel/examples/webchannel/qwclient/qwclient.js	2016-07-27 20:09:40.159572493 -0500
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env node
 +#!/usr/bin/env nodejs
  /****************************************************************************
  **
- ** Copyright (C) 2016 basysKom GmbH, author Sumedha Widyadharma <sumedha.widyadharma@basyskom.com>
+ ** Copyright (C) 2014 basysKom GmbH, author Sumedha Widyadharma <sumedha.widyadharma@basyskom.com>
