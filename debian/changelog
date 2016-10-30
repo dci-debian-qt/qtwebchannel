@@ -1,6 +1,10 @@
 qtwebchannel-opensource-src (5.7.1~20161021-0) UNRELEASED; urgency=medium
 
+  * Team upload.
+  [ Sandro Knauß ]
   * New upstream version.
+  * Bump to comapt 10 (default is now --parallel), so removed from rules
+    file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Oct 2016 14:23:25 +0100
 
