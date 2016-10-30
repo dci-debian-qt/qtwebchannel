@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1 amd64
+# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
 libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.1
  Qt_5.1@Qt_5.1 5.6.1
@@ -7,7 +7,7 @@ libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.1
  Qt_5.5@Qt_5.5 5.6.1
  Qt_5.6@Qt_5.6 5.6.1
- Qt_5.7@Qt_5.7 5.7.1
+ Qt_5.7@Qt_5.7 5.7.1~20161021
  Qt_5@Qt_5 5.6.1
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.1
  _ZN11QWebChannel11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.1
@@ -55,7 +55,7 @@ libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  _ZN20QMetaObjectPublisher10wrapResultERK8QVariantP28QWebChannelAbstractTransportRK7QString@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.1
- _ZN20QMetaObjectPublisher11setPropertyEP7QObjectiRK10QJsonValue@Qt_5_PRIVATE_API 5.7.1
+ _ZN20QMetaObjectPublisher11setPropertyEP7QObjectiRK10QJsonValue@Qt_5_PRIVATE_API 5.7.1~20161021
  _ZN20QMetaObjectPublisher12invokeMethodEP7QObjectiRK10QJsonArray@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher13handleMessageERK11QJsonObjectP28QWebChannelAbstractTransport@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher13signalEmittedEPK7QObjectiRK5QListI8QVariantE@Qt_5_PRIVATE_API 5.6.1
@@ -65,7 +65,7 @@ libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  _ZN20QMetaObjectPublisher15setClientIsIdleEb@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher16initializeClientEP28QWebChannelAbstractTransport@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.1
- _ZN20QMetaObjectPublisher16transportRemovedEP28QWebChannelAbstractTransport@Qt_5_PRIVATE_API 5.7.1
+ _ZN20QMetaObjectPublisher16transportRemovedEP28QWebChannelAbstractTransport@Qt_5_PRIVATE_API 5.7.1~20161021
  _ZN20QMetaObjectPublisher18classInfoForObjectEPK7QObjectP28QWebChannelAbstractTransport@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher19blockUpdatesChangedEb@Qt_5_PRIVATE_API 5.6.1
  _ZN20QMetaObjectPublisher25initializePropertyUpdatesEPK7QObjectRK11QJsonObject@Qt_5_PRIVATE_API 5.6.1
@@ -100,10 +100,10 @@ libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  _ZNK11QWebChannel17registeredObjectsEv@Qt_5 5.6.1
  _ZNK14QQmlWebChannel10metaObjectEv@Qt_5 5.6.1
  _ZNK20QMetaObjectPublisher10metaObjectEv@Qt_5_PRIVATE_API 5.6.1
- _ZNK20QMetaObjectPublisher12unwrapObjectERK7QString@Qt_5_PRIVATE_API 5.7.1
+ _ZNK20QMetaObjectPublisher12unwrapObjectERK7QString@Qt_5_PRIVATE_API 5.7.1~20161021
  _ZNK20QMetaObjectPublisher16broadcastMessageERK11QJsonObject@Qt_5_PRIVATE_API 5.6.1
  _ZNK20QMetaObjectPublisher19deleteWrappedObjectEP7QObject@Qt_5_PRIVATE_API 5.6.1
- _ZNK20QMetaObjectPublisher9toVariantERK10QJsonValuei@Qt_5_PRIVATE_API 5.7.1
+ _ZNK20QMetaObjectPublisher9toVariantERK10QJsonValuei@Qt_5_PRIVATE_API 5.7.1~20161021
  _ZNK22QQmlWebChannelAttached10metaObjectEv@Qt_5_PRIVATE_API 5.6.1
  _ZNK22QQmlWebChannelAttached2idEv@Qt_5_PRIVATE_API 5.6.1
  _ZNK28QWebChannelAbstractTransport10metaObjectEv@Qt_5 5.6.1
