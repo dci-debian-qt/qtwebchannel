@@ -15,7 +15,7 @@ qtwebchannel-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
   * Update my mailaddress to hefee@debian.org one.
   * Added Multi-Arch hinters for arch=all packages.
 
- -- Sandro Knauß <hefee@debian.org>  Sun, 30 Oct 2016 16:11:42 +0100
+ -- Sandro Knauß <hefee@debian.org>  Sun, 30 Oct 2016 19:12:58 +0100
 
 qtwebchannel-opensource-src (5.6.1-1) unstable; urgency=medium
 
