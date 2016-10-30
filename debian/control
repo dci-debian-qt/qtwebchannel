@@ -22,6 +22,7 @@ Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
 
 Package: qtwebchannel5-doc
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Web communication library for Qt - Documentation
@@ -34,6 +35,7 @@ Description: Web communication library for Qt - Documentation
 
 Package: qtwebchannel5-doc-html
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Description: Web communication library for Qt - HTML Documentation
