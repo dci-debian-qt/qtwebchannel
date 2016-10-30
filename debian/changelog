@@ -9,6 +9,7 @@ qtwebchannel-opensource-src (5.7.1~20161021-0) UNRELEASED; urgency=medium
   * Update build-deps. Tighten to Qt5.7.1.
   * Update patches (only hunk updates needed).
   * Update symbol files.
+  * Remove also directory that holds private headers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Oct 2016 14:23:25 +0100
 
