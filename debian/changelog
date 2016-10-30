@@ -1,6 +1,7 @@
-qtwebchannel-opensource-src (5.7.1~20161021-0) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   * Team upload.
+
   [ Sandro Knauß ]
   * New upstream version.
   * Bump to comapt 10 (default is now --parallel), so removed from rules
@@ -12,9 +13,9 @@ qtwebchannel-opensource-src (5.7.1~20161021-0) UNRELEASED; urgency=medium
   * Remove also directory that holds private headers.
   * Run tests not parallel, this triggers often strange bugs.
   * Update my mailaddress to hefee@debian.org one.
-  * Added Multi-Arch hinters for arch=all packages
+  * Added Multi-Arch hinters for arch=all packages.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Oct 2016 14:23:25 +0100
+ -- Sandro Knauß <hefee@debian.org>  Sun, 30 Oct 2016 16:11:42 +0100
 
 qtwebchannel-opensource-src (5.6.1-1) unstable; urgency=medium
 
