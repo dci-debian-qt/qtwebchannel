@@ -1,11 +1,11 @@
-qtwebchannel-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
   [ Sandro Knauß ]
   * Fix "qtwebchannel5-examples/armel unsatisfiable Depends: nodejs"
       - mark mpm and nodejs to be [!armel]
       - Closes: #846167
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Nov 2016 09:29:03 +0100
+ -- Sandro Knauß <hefee@debian.org>  Sat, 03 Dec 2016 12:22:33 +0100
 
 qtwebchannel-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
