@@ -1,3 +1,9 @@
+qtwebchannel-opensource-src (5.7.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Dec 2016 12:29:29 +0100
+
 qtwebchannel-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
   [ Sandro Knauß ]
