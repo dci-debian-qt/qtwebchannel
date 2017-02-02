@@ -26,7 +26,7 @@ Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Breaks: qtwebchannel-doc (<< 5.7.1)
-Breaks: qtwebchannel-doc (<< 5.7.1)
+Replaces: qtwebchannel-doc (<< 5.7.1)
 Description: Web communication library for Qt - Documentation
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -56,7 +56,7 @@ Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Breaks: qtwebchannel-doc-html (<< 5.7.1)
-Conflicts: qtwebchannel-doc-html (<< 5.7.1)
+Replaces: qtwebchannel-doc-html (<< 5.7.1)
 Description: Web communication library for Qt - HTML Documentation
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -89,7 +89,7 @@ Depends: libqt5webchannel5 (= ${binary:Version}),
          qtdeclarative5-dev,
          ${misc:Depends}
 Breaks: libqt5webchannel-dev (<< 5.7.1)
-Conflicts: libqt5webchannel-dev (<< 5.7.1)
+Replaces: libqt5webchannel-dev (<< 5.7.1)
 Description: Web communication library for Qt - development files
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -126,7 +126,7 @@ Depends: libqt5webchannel5 (= ${binary:Version}),
          ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Breaks: qtwebchannel-examples (<< 5.7.1)
-Conflicts: qtwebchannel-examples (<< 5.7.1)
+Replaces: qtwebchannel-examples (<< 5.7.1)
 Description: Web communication library for Qt - Examples
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
