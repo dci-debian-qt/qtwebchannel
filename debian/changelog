@@ -1,11 +1,12 @@
-qtwebchannel-opensource-src (5.7.1-2) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.7.1-2) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
   * Do not depend upon npm (Closes: #857994). It is used just by some examples
     and currently not on all archs, so while removing it is not the ideal
     solution is the only one we have available right now.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Apr 2017 14:29:41 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 04 Apr 2017 14:33:24 -0300
 
 qtwebchannel-opensource-src (5.7.1-1) unstable; urgency=medium
 
