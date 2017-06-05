@@ -1,3 +1,9 @@
+qtwebchannel-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 04 Jun 2017 20:12:26 -0500
+
 qtwebchannel-opensource-src (5.7.1-2) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
