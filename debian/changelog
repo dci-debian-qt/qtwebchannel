@@ -1,6 +1,10 @@
 qtwebchannel-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
+
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 04 Jun 2017 20:12:26 -0500
 
