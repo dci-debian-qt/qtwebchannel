@@ -1,3 +1,19 @@
+qtwebchannel-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 04 Jun 2017 20:12:26 -0500
+
+qtwebchannel-opensource-src (5.7.1-2) unstable; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Team upload.
+  * Do not depend upon npm (Closes: #857994). It is used just by some examples
+    and currently not on all archs, so while removing it is not the ideal
+    solution is the only one we have available right now.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 04 Apr 2017 14:33:24 -0300
+
 qtwebchannel-opensource-src (5.7.1-1) unstable; urgency=medium
 
   [ Sandro Knauß ]
