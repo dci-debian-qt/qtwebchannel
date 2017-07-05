@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 10),
                qtdeclarative5-private-dev (>= 5.9.1~)
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1~),
                      qttools5-dev-tools (>= 5.9.1~)
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
