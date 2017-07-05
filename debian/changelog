@@ -1,11 +1,10 @@
-qtwebchannel-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.9.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.1.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 21:44:58 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 05 Jul 2017 23:16:56 +0300
 
 qtwebchannel-opensource-src (5.9.0-1) experimental; urgency=medium
 
