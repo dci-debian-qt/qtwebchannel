@@ -2,20 +2,21 @@ Source: qtwebchannel-opensource-src
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Scarlett Clark <sgclark@kubuntu.org>,
            Sandro Knauß <hefee@debian.org>,
+           Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 9),
-               libqt5websockets5-dev (>= 5.9.0~),
+Build-Depends: debhelper (>= 10),
+               libqt5websockets5-dev (>= 5.9.1~),
                pkg-kde-tools,
-               qml-module-qttest (>= 5.9.0~),
-               qtbase5-dev (>= 5.9.0~),
-               qtbase5-private-dev (>= 5.9.0~),
+               qml-module-qttest (>= 5.9.1~),
+               qtbase5-dev (>= 5.9.1~),
+               qtbase5-private-dev (>= 5.9.1~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.9.0~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0~),
-                     qttools5-dev-tools (>= 5.9.0~)
-Standards-Version: 3.9.8
+               qtdeclarative5-private-dev (>= 5.9.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1~),
+                     qttools5-dev-tools (>= 5.9.1~)
+Standards-Version: 4.0.0
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
