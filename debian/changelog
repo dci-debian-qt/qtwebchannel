@@ -73,7 +73,7 @@ qtwebchannel-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   [ Sandro Knauß ]
   * New upstream version.
-  * Bump to comapt 10 (default is now --parallel), so removed from rules
+  * Bump to compat 10 (default is now --parallel), so removed from rules
     file.
   * Update copyright to new release
   * Update build-deps. Tighten to Qt5.7.1.
