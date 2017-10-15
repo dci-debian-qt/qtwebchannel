@@ -4,6 +4,7 @@ qtwebchannel-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Use dh_missing instead of deprecated dh_install --fail-missing.
+  * Bump Standards-Version to 4.1.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Oct 2017 21:03:26 +0300
 
