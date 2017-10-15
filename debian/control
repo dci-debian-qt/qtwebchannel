@@ -68,7 +68,7 @@ Package: qtwebchannel5-examples
 Architecture: any
 Multi-Arch: same
 Depends: libqt5webchannel5 (= ${binary:Version}),
-         nodejs [!armel !powerpc],
+         nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc],
          ${misc:Depends},
          ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
