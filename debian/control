@@ -6,7 +6,7 @@ Uploaders: Scarlett Clark <sgclark@kubuntu.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper (>= 10.3),
                libqt5websockets5-dev (>= 5.9.2~),
                pkg-kde-tools,
                qml-module-qttest (>= 5.9.2~),
