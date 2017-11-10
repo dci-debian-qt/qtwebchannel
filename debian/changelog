@@ -1,8 +1,9 @@
-qtwebchannel-opensource-src (5.9.1-0neon) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
 
   * 
+  * New release
 
- -- Jonathan Riddell <jr@jriddell.org>  Mon, 03 Jul 2017 12:34:05 +0100
+ -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:41 +0000
 
 qtwebchannel-opensource-src (5.9.0-1) experimental; urgency=medium
 
