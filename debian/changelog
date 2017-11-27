@@ -1,5 +1,11 @@
 qtwebchannel-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
 
+  * Team upload.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make qtwebchannel5-examples recommends nodejs instead of directly
+    depending on it. Not all examples need nodejs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 27 Nov 2017 13:42:11 -0300
 
 qtwebchannel-opensource-src (5.9.2-2) unstable; urgency=medium

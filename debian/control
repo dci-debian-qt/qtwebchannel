@@ -68,9 +68,9 @@ Package: qtwebchannel5-examples
 Architecture: any
 Multi-Arch: same
 Depends: libqt5webchannel5 (= ${binary:Version}),
-         nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc],
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc]
 Pre-Depends: ${misc:Pre-Depends}
 Description: Web communication library for Qt - Examples
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
