@@ -78,7 +78,8 @@ Description: Web communication library for Qt - Examples
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the examples for Qt's WebChannel submodule.
+ This package contains the examples for Qt's WebChannel submodule. Be sure to
+ read README.Debian before trying to run them.
 
 Package: libqt5webchannel5
 Architecture: any

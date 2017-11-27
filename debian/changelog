@@ -6,6 +6,8 @@ qtwebchannel-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
   * Make qtwebchannel5-examples recommends nodejs instead of directly
     depending on it. Not all examples need nodejs.
     - Add README.Debian explaining the issue.
+    - Expand the package description to warn the user to read README.Debian
+      before running the examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 27 Nov 2017 13:42:11 -0300
 
