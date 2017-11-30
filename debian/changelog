@@ -1,7 +1,11 @@
-qtwebchannel-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * 
   * New release
+
+  [ Scarlett Clark ]
+  * New release 
 
  -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:41 +0000
 

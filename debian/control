@@ -21,6 +21,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
 
 Package: qtwebchannel5-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: doc
@@ -36,6 +37,7 @@ Description: Web communication library for Qt - Documentation
  This package contains the documentation for QtWebChannel.
 
 Package: qtwebchannel-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: oldlibs
@@ -51,6 +53,7 @@ Description: Web communication library for Qt - transitional
  This package is transitional and can be safely removed.
 
 Package: qtwebchannel5-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: doc
@@ -66,6 +69,7 @@ Description: Web communication library for Qt - HTML Documentation
  This package contains the HTML documentation for QtWebChannel.
 
 Package: qtwebchannel-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: oldlibs
