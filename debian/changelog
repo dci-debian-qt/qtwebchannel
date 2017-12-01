@@ -1,9 +1,40 @@
+qtwebchannel-opensource-src (5.9.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Oct 2017 16:51:22 +0300
+
+qtwebchannel-opensource-src (5.9.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Use dh_missing instead of deprecated dh_install --fail-missing.
+  * Bump Standards-Version to 4.1.1, no changes needed.
+  * Drop nodetonodejs.diff, no longer needed (see #862051).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 21:33:19 +0300
+
 qtwebchannel-opensource-src (5.9.2-0neon) UNRELEASED; urgency=medium
 
   * 
   * New release
 
  -- Jonathan Riddell <jr@jriddell.org>  Fri, 10 Nov 2017 11:41:41 +0000
+
+qtwebchannel-opensource-src (5.9.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 15:14:04 -0300
+
+qtwebchannel-opensource-src (5.9.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+  * Add myself to Uploaders.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 05 Jul 2017 23:16:56 +0300
 
 qtwebchannel-opensource-src (5.9.0-1) experimental; urgency=medium
 
@@ -57,7 +88,7 @@ qtwebchannel-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
   [ Sandro Knauß ]
   * New upstream version.
-  * Bump to comapt 10 (default is now --parallel), so removed from rules
+  * Bump to compat 10 (default is now --parallel), so removed from rules
     file.
   * Update copyright to new release
   * Update build-deps. Tighten to Qt5.7.1.
