@@ -14,8 +14,8 @@ Build-Depends: debhelper (>= 9),
                qtbase5-private-dev (>= 5.9.2+dfsg~),
                qtchooser,
                qtdeclarative5-private-dev (>= 5.9.2~)
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2~),
-                     qttools5-dev-tools (>= 5.9.2~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.3+dfsg),
+                     qttools5-dev-tools (>= 5.9.3)
 Standards-Version: 4.1.1
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
@@ -40,7 +40,7 @@ Package: qtwebchannel-doc
 Architecture: all
 Multi-Arch: foreign
 Section: oldlibs
-Depends: ${misc:Depends}, qtwebchannel5-doc
+Depends: qtwebchannel5-doc, ${misc:Depends}
 Description: Web communication library for Qt - transitional
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -70,7 +70,7 @@ Package: qtwebchannel-doc-html
 Architecture: all
 Multi-Arch: foreign
 Section: oldlibs
-Depends: ${misc:Depends}, qtwebchannel5-doc-html
+Depends: qtwebchannel5-doc-html, ${misc:Depends}
 Description: Web communication library for Qt - transitional
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -104,8 +104,7 @@ Package: libqt5webchannel-dev
 Architecture: any
 Multi-Arch: foreign
 Section: oldlibs
-Depends: libqt5webchannel5-dev,
-         ${misc:Depends}
+Depends: libqt5webchannel5-dev, ${misc:Depends}
 Description: Web communication library for Qt - transitional
  Qt WebChannel enables peer-to-peer communication between the host (QML/C++
  application) and the client (HTML/JavaScript application). The transport
@@ -176,3 +175,4 @@ Description: Web communication library for Qt - QML module
  WebKit 2 and Qt WebEngine (experimental).
  .
  This package contains the WebChannel QML module for QtDeclarative.
+
