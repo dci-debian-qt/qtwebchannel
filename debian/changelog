@@ -8,7 +8,6 @@ qtwebchannel-opensource-src (5.9.2-1) experimental; urgency=medium
 
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
-  * Use dh_missing instead of deprecated dh_install --fail-missing.
   * Bump Standards-Version to 4.1.1, no changes needed.
   * Drop nodetonodejs.diff, no longer needed (see #862051).
 
