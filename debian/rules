@@ -8,8 +8,7 @@ export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags -
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
-export DEB_BUILD_OPTIONS := nodoc
-export DEB_BUILD_PROFILES := nodoc
+
 VERSION_CLEAN_UPSTREAM = $(call dpkg_late_eval,VERSION_CLEAN_UPSTREAM,echo '$(DEB_VERSION_UPSTREAM)' | sed -e 's/~.*//')
 
 %:
