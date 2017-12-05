@@ -120,7 +120,7 @@ Package: qtwebchannel5-examples
 Architecture: any
 Multi-Arch: same
 Depends: libqt5webchannel5 (= ${binary:Version}),
-         nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc],
+         nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc !arm64],
          ${misc:Depends},
          ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
@@ -175,4 +175,3 @@ Description: Web communication library for Qt - QML module
  WebKit 2 and Qt WebEngine (experimental).
  .
  This package contains the WebChannel QML module for QtDeclarative.
-
