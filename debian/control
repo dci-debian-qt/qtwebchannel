@@ -120,9 +120,9 @@ Package: qtwebchannel5-examples
 Architecture: any
 Multi-Arch: same
 Depends: libqt5webchannel5 (= ${binary:Version}),
-         nodejs [!armel !powerpc],
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: nodejs (>= 6.11.2~dfsg-1~) [!armel !powerpc]
 Pre-Depends: ${misc:Pre-Depends}
 Breaks: qtwebchannel-examples (<< 5.7.1)
 Replaces: qtwebchannel-examples (<< 5.7.1)
@@ -132,7 +132,8 @@ Description: Web communication library for Qt - Examples
  mechanism is supported out of the box by the two popular web engines, Qt
  WebKit 2 and Qt WebEngine (experimental).
  .
- This package contains the examples for Qt's WebChannel submodule.
+ This package contains the examples for Qt's WebChannel submodule. Be sure to
+ read README.Debian before trying to run them.
 
 Package: qtwebchannel-examples
 Architecture: any
