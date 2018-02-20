@@ -7,6 +7,7 @@ qtwebchannel-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Use dh_auto_configure provided by debhelper (closes: #884383).
   * Update packages descriptions to reflect that Qt WebEngine is no
     longer experimental.
+  * Add support for the nodoc build profile.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 01:12:00 +0300
 

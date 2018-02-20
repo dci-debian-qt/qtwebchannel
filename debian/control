@@ -14,13 +14,14 @@ Build-Depends: debhelper (>= 10.9.2~),
                qtbase5-private-dev (>= 5.10.1+dfsg~),
                qtchooser,
                qtdeclarative5-private-dev (>= 5.10.1~)
-Build-Depends-Indep: qttools5-dev-tools (>= 5.10.1~)
+Build-Depends-Indep: qttools5-dev-tools (>= 5.10.1~) <!nodoc>
 Standards-Version: 4.1.1
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
 
 Package: qtwebchannel5-doc
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: doc
@@ -34,6 +35,7 @@ Description: Web communication library for Qt - Documentation
  This package contains the documentation for QtWebChannel.
 
 Package: qtwebchannel5-doc-html
+Build-Profiles: <!nodoc>
 Architecture: all
 Multi-Arch: foreign
 Section: doc
