@@ -9,6 +9,7 @@ qtwebchannel-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
     longer experimental.
   * Add support for the nodoc build profile.
   * Update Vcs fields for migration to salsa.debian.org.
+  * Add Qt_5.10 version tag to debian/libqt5webchannel5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 01:12:00 +0300
 
