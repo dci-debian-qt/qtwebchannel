@@ -2,6 +2,7 @@ qtwebchannel-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch for the new upstream tarballs naming scheme.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Feb 2018 01:12:00 +0300
 
