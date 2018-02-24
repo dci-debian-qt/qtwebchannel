@@ -1,8 +1,8 @@
-qtwebchannel-opensource-src (5.9.4-0ubuntu1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.9.4-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 24 Feb 2018 12:24:09 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 24 Feb 2018 12:26:56 -0600
 
 qtwebchannel-opensource-src (5.9.3-0ubuntu1) bionic; urgency=medium
 
