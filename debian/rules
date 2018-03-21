@@ -4,9 +4,6 @@
 #export DH_VERBOSE=1
 include /usr/share/dpkg/default.mk
 
-export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
-export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 export QT_SELECT := qt5
 
 VERSION_CLEAN_UPSTREAM = $(call dpkg_late_eval,VERSION_CLEAN_UPSTREAM,echo '$(DEB_VERSION_UPSTREAM)' | sed -e 's/~.*//')
@@ -24,7 +21,7 @@ override_dh_clean:
 	rm -f src/webchannel/QtWebChannel.version.in
 
 override_dh_auto_configure:
-	qmake QT_BUILD_PARTS+=" tests"
+	dh_auto_configure -- QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
