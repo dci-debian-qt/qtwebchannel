@@ -1,9 +1,9 @@
-qtwebchannel-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.10.1-2) unstable; urgency=medium
 
   * Team upload.
   * Release to unstable.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 19:56:53 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 19:58:26 -0300
 
 qtwebchannel-opensource-src (5.10.1-1) experimental; urgency=medium
 
