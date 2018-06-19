@@ -1,5 +1,8 @@
 qtwebchannel-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
+  * New upstream release.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jun 2018 22:00:05 -0400
 
 qtwebchannel-opensource-src (5.10.1-2) unstable; urgency=medium
