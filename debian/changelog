@@ -1,8 +1,38 @@
+qtwebchannel-opensource-src (5.11.1-2) experimental; urgency=medium
+
+  * Run wrap-and-sort.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 23 Jun 2018 20:23:23 -0500
+
+qtwebchannel-opensource-src (5.11.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies to 5.11.1.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 19 Jun 2018 18:58:31 -0500
+
+qtwebchannel-opensource-src (5.11.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Bump debhelper compat to 11, no changes needed.
+  * Bump build dependencies to 5.11.0.
+  * Update symbols from build logs.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 18 Jun 2018 22:09:08 -0400
+
 qtwebchannel-opensource-src (5.11.0-0neon) xenial; urgency=medium
 
   * 5.11
 
  -- Bhushan Shah <bshah@kde.org>  Fri, 25 May 2018 08:48:02 +0000
+
+qtwebchannel-opensource-src (5.10.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 07 Apr 2018 19:58:26 -0300
 
 qtwebchannel-opensource-src (5.10.1-1) experimental; urgency=medium
 
