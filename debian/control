@@ -7,14 +7,14 @@ Uploaders: Scarlett Clark <sgclark@kubuntu.org>,
 Section: libs
 Priority: optional
 Build-Depends: debhelper (>= 11),
-               libqt5websockets5-dev (>= 5.11.2~),
+               libqt5websockets5-dev (>= 5.11.3~),
                pkg-kde-tools,
-               qml-module-qttest (>= 5.11.2~),
-               qtbase5-dev (>= 5.11.2+dfsg~),
-               qtbase5-private-dev (>= 5.11.2+dfsg~),
+               qml-module-qttest (>= 5.11.3~),
+               qtbase5-dev (>= 5.11.3+dfsg~),
+               qtbase5-private-dev (>= 5.11.3+dfsg~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.11.2~)
-Build-Depends-Indep: qttools5-dev-tools (>= 5.11.2~) <!nodoc>
+               qtdeclarative5-private-dev (>= 5.11.3~)
+Build-Depends-Indep: qttools5-dev-tools (>= 5.11.3~) <!nodoc>
 Standards-Version: 4.2.1
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel.git
